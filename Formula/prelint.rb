@@ -6,24 +6,24 @@
 class Prelint < Formula
   desc "Prelint CLI: authenticate and interact with the Prelint API"
   homepage "https://prelint.com"
-  version "0.1.0-rc1"
+  version "0.1.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/prelint/cli/releases/download/v0.1.0-rc1/prelint-macos-arm64"
-      sha256 "cc458fb68d8b611eb4609d846285288dd19c23e996296f3fba23d8dadf195489"
+      url "https://github.com/prelint/cli/releases/download/v0.1.0/prelint-macos-arm64"
+      sha256 "d9de5708bec22e425d43408e64bbe2e6e2b38d9de0ecb8949457417270d12fee"
     end
     on_intel do
-      url "https://github.com/prelint/cli/releases/download/v0.1.0-rc1/prelint-macos-x86_64"
-      sha256 "27383de5e987ceb500b2ca30d7ec873707406a7b4334026340fa639ba25a226f"
+      url "https://github.com/prelint/cli/releases/download/v0.1.0/prelint-macos-x86_64"
+      sha256 "4354c02938ced22bedf021f3c0374e48a845d72df794efc4ead1490c8a0b9c3c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/prelint/cli/releases/download/v0.1.0-rc1/prelint-linux-x86_64-musl"
-      sha256 "7e8c8f0b8ee0f057297e3a129fbdedd301c859d24c7ed26de5607c301afddd90"
+      url "https://github.com/prelint/cli/releases/download/v0.1.0/prelint-linux-x86_64-musl"
+      sha256 "df932442f2df5c52ee08aa42f49fa0efe8af204ba2b1d646c2710ac35f09d2b7"
     end
   end
 
